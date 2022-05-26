@@ -6,6 +6,7 @@ public class Solution {
 //    234567 → "23four5six7"
 //    10203 → "1zerotwozero3"
     public int solution(String s) {
+
         for(int i=0;i<10;i++){
             String source="";
             switch (i){
