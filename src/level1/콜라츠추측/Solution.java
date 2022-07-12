@@ -7,7 +7,7 @@ public class Solution {
 //    2. 결과로 나온 수에 같은 작업을 1이 될 때까지 반복합니다.
     public int solution(int num) {
         int answer = 0;
-        if(answer == 1) return 0;
+        if(num == 1) return 0;
 
         long numTemp = num;
         while(answer<=500){
